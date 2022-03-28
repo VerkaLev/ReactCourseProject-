@@ -1,0 +1,462 @@
+@font-face {
+  font-family: 'SpecialElite-Regular';
+  src: url(./Utils//Fonts//SpecialElite-Regular.ttf);
+}
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.name_app {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'SpecialElite-Regular';
+}
+
+.name_app_bottom {
+  position: relative;
+  left: 107%;
+  top: -160px;
+  margin-top: 40px;
+  font-family: 'SpecialElite-Regular';
+  font-size: 20px;
+  color: rgb(171, 171, 171);
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.App {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  border: 8px double black;
+  width: 1130px;
+  padding: 20px;
+  height: 500px;
+}
+
+.app_and_bottom {
+  width: 1130px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.column_menu {
+  width: 130px;
+  display: flex;
+  padding-right: 20px;
+  flex-direction: column;
+  align-items: center;
+  border-right: 3px solid rgb(0, 0, 0);
+}
+
+.buttons_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav_btn {
+  background-color: #fff;
+  color: #000;
+  width: 130px;
+  height: 30px;
+  border: 5px double black;
+  box-shadow: 5px 5px 10px 2px rgb(148, 148, 148);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.nav_new_btn {
+  background-color: #fff;
+  color: #000;
+  width: 130px;
+  border: 5px double black;
+  box-shadow: 5px 5px 10px 2px rgb(148, 148, 148);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.prompt_click {
+  margin-top: 0;
+  margin-left: -20px;
+  color: rgb(0, 0, 0);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.btn_create_new_element {
+  margin-top: 100px;
+  width: 130px;
+}
+
+.column_with_elements {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  height: 500px;
+  width: 500px;
+}
+
+.container_with_elements {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  gap: 20px;
+  overflow-y: scroll;
+  height: 424px;
+}
+
+.container_with_form {
+  background: url('./Utils/Images/backgroundImage_.jpg') right bottom / contain
+    no-repeat;
+  width: 440px;
+  height: 500px;
+  padding-left: 20px;
+  border-left: 3px solid rgb(0, 0, 0);
+}
+
+.button_with_styles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.container_edit_delete_buy {
+  display: flex;
+  gap: 5px;
+}
+
+.container_with_inputs {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.form_for_create_new_element {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+}
+
+.form_with_styles {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+  width: 437px;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 8px double rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px 2px rgb(148, 148, 148),
+    -5px -5px 10px -2px rgb(148, 148, 148);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.style_block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hover {
+  margin-top: 15px;
+}
+
+.form_with_styles_delete {
+  position: absolute;
+  top: -200px;
+}
+
+.exapmle {
+  color: #fff;
+}
+
+.btn_edit {
+  width: 20px;
+  height: 20px;
+  background: url(./Utils//Images/edit.png) no-repeat center center;
+  background-size: cover;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+  background: url(./Utils//Images/delete.png) no-repeat center center;
+  background-size: cover;
+}
+
+.btn_buy {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  border: none;
+  background: url(./Utils//Images/buy.png) no-repeat center center;
+  background-size: cover;
+}
+
+.button_edit_delete {
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_with_styles_created {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.color_picker {
+  position: relative;
+  left: 110%;
+}
+
+.block_save {
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.inputBorderPx {
+  width: 80px;
+}
+
+.inputColor {
+  width: 100px;
+}
+
+.properties_border {
+  display: flex;
+  gap: 5px;
+}
+
+.box_shadow {
+  width: 70px;
+}
+
+.container_box-shadow {
+  display: flex;
+  gap: 5px;
+}
+
+.properties_box_shadow {
+  display: flex;
+  gap: 5px;
+}
+
+.form_signup_login {
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 300px;
+  border: 5px double #000;
+  background-color: rgb(255, 255, 255);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.header_signup {
+  width: 292px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header_signup_login {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.log_in {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header_form_log_in {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.buttons_sign_up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.word_no_correct_validation {
+  margin: 0;
+  color: red;
+}
+
+.btn_login,
+.btn_signup {
+  background-color: #000;
+  color: #fff;
+  border: 5px double rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px 2px rgb(148, 148, 148);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.input_email,
+.input_password {
+  width: 292px;
+  height: 20px;
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.signup {
+  color: blue;
+}
+
+.logout {
+  position: absolute;
+  bottom: 20px;
+  width: 130px;
+  background-color: #000;
+  color: #fff;
+  border: 5px double rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px 2px rgb(148, 148, 148);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.fantastic_graphic {
+  position: absolute;
+  bottom: 20px;
+  right: 480px;
+  margin-bottom: 0;
+  color: #000;
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.header_create_new {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.btn_ok_x_form {
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 5px double rgb(0, 0, 0);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+}
+
+.loading {
+  position: relative;
+  top: 50%;
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.shopping_cart_menu {
+  position: absolute;
+  top: 285px;
+  left: 65px;
+  height: 30px;
+  width: 30px;
+  margin-top: -120px;
+  background: url(./Utils//Images/buy.png) no-repeat center center;
+  background-size: cover;
+}
+
+.shopping_cart {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+  width: 437px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 8px double rgb(0, 0, 0);
+  box-shadow: 5px 5px 10px 2px rgb(148, 148, 148),
+    -5px -5px 10px -2px rgb(148, 148, 148);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.header_shopping_cart {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.container_btns_buy_shopping_cart {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btns_buy_shopping_cart {
+  height: 28px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 5px double rgb(255, 255, 255);
+  font-family: 'SpecialElite-Regular';
+  font-size: 15px;
+}
+
+.elements_shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  overflow-y: scroll;
+  height: 424px;
+  width: 400px;
+}
+
+.button_delete_shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
