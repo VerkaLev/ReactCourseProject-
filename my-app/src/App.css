@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'SpecialElite-Regular';
-  src: url('./Utils//Fonts//SpecialElite-Regular.ttf');
+  src: url(./Utils//Fonts//SpecialElite-Regular.ttf);
 }
 .body {
   margin: 0;
@@ -120,7 +120,7 @@
 }
 
 .container_with_form {
-  background: url('./Utils/Images/backgroundImage_.jpg') right bottom / contain
+  background: url(./Utils/Images/backgroundImage_.jpg) right bottom / contain
     no-repeat;
   width: 440px;
   height: 500px;
@@ -196,14 +196,14 @@
 .btn_edit {
   width: 20px;
   height: 20px;
-  background: url('./Utils//Images/edit.png') no-repeat center center;
+  background: url(./Utils//Images/edit.png) no-repeat center center;
   background-size: cover;
 }
 
 .delete {
   width: 20px;
   height: 20px;
-  background: url('./Utils//Images/delete.png') no-repeat center center;
+  background: url(./Utils//Images/delete.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -212,7 +212,7 @@
   height: 20px;
   margin-left: 20px;
   border: none;
-  background: url('./Utils//Images/buy.png') no-repeat center center;
+  background: url(./Utils//Images/buy.png) no-repeat center center;
   background-size: cover;
 }
 
